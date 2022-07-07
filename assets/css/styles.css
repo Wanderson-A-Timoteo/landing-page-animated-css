@@ -29,3 +29,83 @@
     left: 0px;
     z-index: -1;
   }
+
+  @keyframes anim {
+    from {
+      bottom: -100%;
+    }
+    to {
+      bottom: 0%;
+    }
+  }
+
+  @keyframes anim2 {
+    from {
+      left: 30%;
+      width: 530px;
+    }
+    to {
+      width: 0px;
+      left: 50%;
+    }
+  }
+
+  #box2 {
+    width: auto;
+    height: auto;
+    font-size: 10em;
+    font-family: 'Bahnschrift Condensed';
+    color: #FFF;
+    font-weight: 500;
+    line-height: 130px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    overflow: hidden;
+  }
+
+  #text {
+    position: relative;
+    left: -100%;
+    animation: anim3 2s forwards 3s;
+  }
+
+  @keyframes anim3 {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+
+  #box3 {
+    overflow: hidden;
+  }
+
+  #container {
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    animation: anim4 2s forwards 2.5s;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  #logo img {
+    width: 50px;
+  }
+
+  #menu {
+    font-family: 'Bahnschrift Condensed';
+    font-size: 14px;
+    color: #FFF;
+    letter-spacing: 2px;
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+  }

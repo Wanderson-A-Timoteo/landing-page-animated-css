@@ -109,3 +109,21 @@
     margin-top: 20px;
     float: right;
   }
+
+  #menu ul {
+    list-style: none;
+  }
+
+  #menu ul li {
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  @keyframes anim4 {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 0%;
+    }
+  }
